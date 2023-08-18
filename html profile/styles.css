@@ -1,0 +1,193 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    margin-bottom: 20px;
+  }
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000000 !important;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  color: #007bff !important;
+}
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    margin-top: 0;
+  }
+  .form-label {
+    font-weight: bold;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.full-screen-photo {
+    width: 40%;
+    max-height: 400px; 
+    object-fit: cover;
+  }
+  
+  .flex-container{
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #333; 
+    font-size: 18px; 
+  }
+  
+  .flex-container h1 {
+    margin-top: 0;
+    color: #007bff; 
+  }
+  
+  .flex-container p {
+    margin-bottom: 20px;
+  }
+.project-container {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff; /* Change color as needed */
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 14px;
+  color: #f7f2f2; /* Change color as needed */
+}
+/* Custom CSS for education page */
+.education-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #7a7777;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.education-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.education-degree {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #070707cb; /* Change color as needed */
+}
+
+.education-school {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.education-percentage,
+.education-cgpa {
+  font-size: 14px;
+  color: #fffbfb; /* Change color as needed */
+}
+.education-school{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #050505b9; /* Change color as needed */
+}
+/* Custom CSS for contact page */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background:cornsilk ;
+}
+
+.contact-form {
+  width: 400px;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  font-weight: bold;
+}
+
+.input-container input,
+.input-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #721212;
+  border: 20px;
+  padding: 12px 20px; /* Adjust padding to increase button size */
+  font-size: 16px; /* Adjust font size if needed */
+  color: #ccc;
+  position: absolute;
+  left: 1050px;
+}
+
+.btn-primary:hover {
+  background-color: #f0eeee;
+  color: #0827c5;
+
+}
+
+
+/* Additional styling for form elements if needed */
